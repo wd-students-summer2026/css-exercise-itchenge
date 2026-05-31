@@ -1,1 +1,89 @@
-/* place your CSS code here */
+p {
+    font-family: 'Georgia', 'Times New Roman', Times, serif; 
+    font-size: 1.1rem;          
+    line-height: 1.5;          
+    color: #2c3e50;
+}
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;           
+    color: #1e2f3e;            
+    letter-spacing: -0.02em;    
+}
+
+h1 {
+    font-size: 2.5rem;         
+    margin-bottom: 0.75em;
+}
+
+h2 {
+    font-size: 2rem;           
+    margin-bottom: 0.6em;
+}
+
+h3 {
+    font-size: 1.5rem;          
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;       
+    padding: 0.1rem 0.2rem;      
+    border-radius: 4px;        
+}
+
+/* 普通链接（未访问） */
+a:link {
+    color: #0066cc;              
+    background-color: transparent; 
+}
+
+/* 已访问过的链接 */
+a:visited {
+    color: #6c3483;
+    background-color: transparent; 
+}
+
+/* 鼠标悬停时 */
+a:hover {
+    color: #ffffff;    
+    background-color: #e67e22; 
+}
+
+/* 鼠标按下时的瞬间状态 */
+a:active {
+    color: #ffffff;
+    background-color: #c0392b;  
+    transform: translateY(1px); 
+}
+
+section {
+    padding: 2rem 1.5rem; /* 上下2rem，左右1.5rem，确保内容不贴边 */
+    margin-bottom: 1rem;   /* 章节之间保持间距 */
+    /* border: 2px solid #3498db;   
+    border-radius: 8px;            
+    background-color: #fef9f0;  */
+}
+
+#my_background {
+    background-color: #fff3e0; 
+}
+
+#my_interests {
+    background-color: #fff3e0;
+}
+
+section h2 {
+    border-left: 5px solid #e67e22;
+    padding-left: 1rem;
+}
+
+.about_me{
+     width: 200px;     
+     height: 300px;
+}
+.more_about_me{
+     width: 600px;     
+     height: 100%;
+}
